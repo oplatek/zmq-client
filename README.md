@@ -1,5 +1,3 @@
-A basic client for sending messages over ZeroMQ using the Request/Reply pattern.
-
 # Requirements
 * Docker
 
