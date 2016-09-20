@@ -10,5 +10,5 @@ RUN make
 RUN make install
 WORKDIR /home/ubuntu
 RUN pip install pyzmq
-COPY client.py server.py /home/ubuntu/
+COPY client.py server.py subscriber.py publisher.py /home/ubuntu/
 CMD python client.py
